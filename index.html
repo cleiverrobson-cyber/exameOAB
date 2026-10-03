@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Rumo à OAB</title>
+  <meta name="description" content="Aplicativo de estudos para a 1ª fase do 48º Exame de Ordem Unificado (OAB/FGV) — prova em 10/01/2027.">
+  <meta name="theme-color" content="#1e3a8a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <div class="layout">
+    <aside class="lateral" id="lateral" aria-label="Menu principal">
+      <div class="marca">
+        <img src="icons/icon.svg" alt="" width="36" height="36">
+        <div>
+          <strong>Rumo à OAB</strong>
+          <small>48º Exame · 1ª fase</small>
+        </div>
+      </div>
+      <nav id="menu"></nav>
+      <div class="lateral-rodape" id="contagem-lateral"></div>
+    </aside>
+    <div class="principal">
+      <header class="topo">
+        <button class="botao-icone so-mobile" id="abrir-menu" aria-label="Abrir menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <h1 id="titulo-pagina">Painel</h1>
+        <div class="topo-acoes">
+          <span class="selo-contagem" id="selo-contagem" title="Dias até a prova"></span>
+          <button class="botao-icone" id="alternar-tema" aria-label="Alternar tema claro/escuro">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="currentColor"/></svg>
+          </button>
+        </div>
+      </header>
+      <main id="conteudo" tabindex="-1"></main>
+    </div>
+  </div>
+  <nav class="barra-inferior" id="barra-inferior" aria-label="Navegação rápida"></nav>
+  <div class="fundo-menu" id="fundo-menu" hidden></div>
+  <div id="avisos" class="avisos" aria-live="polite"></div>
+
+  <script src="data/edital.js"></script>
+  <script src="data/disciplinas/etica.js"></script>
+  <script src="data/disciplinas/filosofia.js"></script>
+  <script src="data/disciplinas/constitucional.js"></script>
+  <script src="data/disciplinas/humanos.js"></script>
+  <script src="data/disciplinas/eleitoral.js"></script>
+  <script src="data/disciplinas/internacional.js"></script>
+  <script src="data/disciplinas/financeiro.js"></script>
+  <script src="data/disciplinas/tributario.js"></script>
+  <script src="data/disciplinas/administrativo.js"></script>
+  <script src="data/disciplinas/ambiental.js"></script>
+  <script src="data/disciplinas/civil.js"></script>
+  <script src="data/disciplinas/eca.js"></script>
+  <script src="data/disciplinas/consumidor.js"></script>
+  <script src="data/disciplinas/empresarial.js"></script>
+  <script src="data/disciplinas/processocivil.js"></script>
+  <script src="data/disciplinas/penal.js"></script>
+  <script src="data/disciplinas/processopenal.js"></script>
+  <script src="data/disciplinas/previdenciario.js"></script>
+  <script src="data/disciplinas/trabalho.js"></script>
+  <script src="data/disciplinas/processotrabalho.js"></script>
+  <script src="data/estrategia.js"></script>
+
+  <script src="js/util.js"></script>
+  <script src="js/srs.js"></script>
+  <script src="js/planner.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/banco.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/views/painel.js"></script>
+  <script src="js/views/disciplinas.js"></script>
+  <script src="js/views/questoes.js"></script>
+  <script src="js/views/simulado.js"></script>
+  <script src="js/views/flashcards.js"></script>
+  <script src="js/views/revisoes.js"></script>
+  <script src="js/views/cronograma.js"></script>
+  <script src="js/views/pomodoro.js"></script>
+  <script src="js/views/estatisticas.js"></script>
+  <script src="js/views/estrategia.js"></script>
+  <script src="js/views/exame.js"></script>
+  <script src="js/views/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

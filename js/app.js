@@ -140,7 +140,7 @@
     document.addEventListener('visibilitychange', function () { if (document.hidden) S.salvarAgora(); });
     navegar();
 
-    if ('serviceWorker' in navigator && /^https?:$/.test(global.location.protocol)) {
+    if ('serviceWorker' in navigator && /^https?:$/.test(global.location.protocol) && !global.claude) {
       navigator.serviceWorker.register('sw.js').catch(function () { /* offline indisponível */ });
     }
   }

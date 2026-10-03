@@ -65,6 +65,7 @@
     get estado() { return estado; },
     armazenamentoOk: function () { return armazenamentoOk; },
     salvar: function () {
+      estado.atualizadoEm = Date.now();
       clearTimeout(agendado);
       agendado = setTimeout(S.salvarAgora, 150);
       ouvintes.forEach(function (fn) { fn(); });
@@ -88,6 +89,18 @@
       estado = mesclar(padrao(), novo);
       S.salvarAgora();
       S.salvar();
+    },
+    /* Troca o estado inteiro (usado pela sincronização com a conta). */
+    substituir: function (novo) {
+      estado = mesclar(padrao(), novo);
+      S.salvarAgora();
+    },
+    statusNuvem: function () {
+      var n = OAB.nuvem || {};
+      if (n.estado === 'ativa') return 'Seu progresso é salvo na sua conta do Claude e acompanha você em qualquer aparelho em que abrir esta página.';
+      if (n.estado === 'conectando') return 'Conectando ao salvamento na sua conta…';
+      if (n.estado === 'erro') return 'Não foi possível salvar na sua conta agora' + (n.mensagem ? ' (' + n.mensagem + ')' : '') + '. O progresso continua salvo neste navegador; exporte um backup por segurança.';
+      return 'Seu progresso fica salvo neste navegador.';
     },
     redefinir: function () {
       estado = padrao();

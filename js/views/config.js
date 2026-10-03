@@ -53,11 +53,15 @@
           </section>
           <section class="cartao">
             <h2>Backup do progresso</h2>
-            <p class="pequeno mudo">Seu progresso fica salvo neste navegador. Exporte um backup regularmente e importe-o para continuar em outro aparelho.</p>
+            <p class="pequeno mudo">Exporte um backup regularmente e importe-o para continuar em outro aparelho ou navegador.</p>
+            <p class="pequeno" id="status-nuvem">${S.statusNuvem()}</p>
             <div class="linha">
               <button class="botao primario" id="exportar">Exportar backup (.json)</button>
-              <label class="botao">Importar backup<input type="file" id="importar" accept=".json,application/json" hidden></label>
+              <button class="botao" id="copiar-backup">Copiar backup</button>
+              <label class="botao">Importar arquivo<input type="file" id="importar" accept=".json,application/json" hidden></label>
+              <button class="botao" id="colar-backup">Colar backup</button>
             </div>
+            <div id="area-backup"></div>
             <h3 style="margin-top:18px">Zona de perigo</h3>
             <button class="botao perigo" id="zerar">Apagar todo o progresso</button>
           </section>
@@ -94,22 +98,48 @@
         U.toast('Perfil salvo.');
       });
       U.$('#exportar', el).addEventListener('click', function () {
-        U.baixar('rumo-oab-backup-' + U.hoje() + '.json', S.exportar());
-      });
-      U.$('#importar', el).addEventListener('change', function (e) {
-        var f = e.target.files[0];
-        if (!f) return;
-        f.text().then(function (t) {
-          if (!U.confirmar('Importar este backup substituirá o progresso atual deste navegador. Continuar?')) return;
-          try { S.importar(t); OAB.aplicarTema(); U.toast('Backup importado!'); OAB.recarregarTela(); }
-          catch (err) { U.toast('Erro: ' + err.message, 5000); }
+        var nome = 'rumo-oab-backup-' + U.hoje() + '.json';
+        var dados = S.exportar();
+        var dl = window.claude && window.claude.use ? window.claude.use('downloads') : Promise.resolve(null);
+        dl.then(function (d) {
+          if (!d) { U.baixar(nome, dados); return; }
+          return d.save({ filename: nome, data: dados }).then(function (r) {
+            if (r && r.status === 'saved') U.toast('Backup salvo.');
+          }, function (err) {
+            if (err && err.code === 'unavailable') mostrarTextoBackup(dados);
+          });
         });
       });
+      function mostrarTextoBackup(dados) {
+        U.render(U.$('#area-backup', el), html`<div class="campo" style="margin-top:12px"><label for="txt-backup">Backup (selecione tudo e copie)</label><textarea id="txt-backup" readonly>${dados}</textarea></div>`);
+        var ta = U.$('#txt-backup', el);
+        ta.focus(); ta.select();
+      }
+      U.$('#copiar-backup', el).addEventListener('click', function () {
+        var dados = S.exportar();
+        try {
+          navigator.clipboard.writeText(dados).then(function () { U.toast('Backup copiado. Cole em um arquivo ou nota para guardar.'); }, function () { mostrarTextoBackup(dados); });
+        } catch (e) { mostrarTextoBackup(dados); }
+      });
+      function aplicarBackup(t) {
+        U.confirmar('Importar este backup substituirá o progresso atual. Continuar?', function () {
+          try { S.importar(t); OAB.aplicarTema(); U.toast('Backup importado!'); OAB.recarregarTela(); }
+          catch (err) { U.toast('Erro: ' + err.message, 5000); }
+        }, { rotulo: 'Importar' });
+      }
+      U.$('#importar', el).addEventListener('change', function (e) {
+        var f = e.target.files[0];
+        if (f) f.text().then(aplicarBackup);
+      });
+      U.$('#colar-backup', el).addEventListener('click', function () {
+        U.render(U.$('#area-backup', el), html`<div class="campo" style="margin-top:12px"><label for="txt-colar">Cole aqui o backup copiado</label><textarea id="txt-colar"></textarea></div><button class="botao primario" id="aplicar-colado">Importar backup colado</button>`);
+        U.$('#txt-colar', el).focus();
+        U.$('#aplicar-colado', el).addEventListener('click', function () { aplicarBackup(U.$('#txt-colar', el).value); });
+      });
       U.$('#zerar', el).addEventListener('click', function () {
-        if (U.confirmar('Apagar TODO o progresso (respostas, simulados, flashcards, cronograma)? Esta ação não pode ser desfeita.') &&
-            U.confirmar('Tem certeza? Recomendamos exportar um backup antes.')) {
+        U.confirmar('Apagar TODO o progresso (respostas, simulados, flashcards, cronograma)? Esta ação não pode ser desfeita. Recomendamos exportar um backup antes.', function () {
           S.redefinir(); OAB.aplicarTema(); U.toast('Progresso apagado.'); OAB.ir('#/painel');
-        }
+        }, { rotulo: 'Apagar tudo', perigo: true });
       });
 
       function importarTexto(t) {
@@ -127,10 +157,11 @@
       U.$('#arq-q', el).addEventListener('change', function (e) { var f = e.target.files[0]; if (f) f.text().then(importarTexto); });
       var ap = U.$('#apagar-q', el);
       if (ap) ap.addEventListener('click', function () {
-        if (!U.confirmar('Remover todas as questões importadas/criadas por você?')) return;
-        est.questoesUsuario = [];
-        S.salvar();
-        OAB.recarregarTela();
+        U.confirmar('Remover todas as questões importadas/criadas por você?', function () {
+          est.questoesUsuario = [];
+          S.salvar();
+          OAB.recarregarTela();
+        }, { rotulo: 'Remover', perigo: true });
       });
       if (r && r.params.aba === 'importar') setTimeout(function () { U.$('#importar-questoes', el).scrollIntoView({ block: 'start' }); }, 50);
     }

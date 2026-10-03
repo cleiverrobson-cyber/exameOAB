@@ -143,11 +143,12 @@
       });
       U.$$('[data-apagar]', el).forEach(function (b) {
         b.addEventListener('click', function () {
-          if (!U.confirmar('Excluir este cartão?')) return;
-          est.cardsUsuario = est.cardsUsuario.filter(function (c) { return c.id !== b.dataset.apagar; });
-          delete est.flashcards[b.dataset.apagar];
-          S.salvar();
-          OAB.recarregarTela();
+          U.confirmar('Excluir este cartão?', function () {
+            est.cardsUsuario = est.cardsUsuario.filter(function (c) { return c.id !== b.dataset.apagar; });
+            delete est.flashcards[b.dataset.apagar];
+            S.salvar();
+            OAB.recarregarTela();
+          }, { rotulo: 'Excluir', perigo: true });
         });
       });
 

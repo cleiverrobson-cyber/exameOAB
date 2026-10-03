@@ -1,5 +1,5 @@
 /* Service worker: deixa o app disponível offline. Altere VERSAO a cada publicação. */
-var VERSAO = 'rumo-oab-v1';
+var VERSAO = 'rumo-oab-v2';
 var ARQUIVOS = [
   './', 'index.html', 'manifest.webmanifest', 'css/style.css',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png',
@@ -11,7 +11,7 @@ var ARQUIVOS = [
   'data/disciplinas/consumidor.js', 'data/disciplinas/empresarial.js', 'data/disciplinas/processocivil.js',
   'data/disciplinas/penal.js', 'data/disciplinas/processopenal.js', 'data/disciplinas/previdenciario.js',
   'data/disciplinas/trabalho.js', 'data/disciplinas/processotrabalho.js',
-  'js/util.js', 'js/srs.js', 'js/planner.js', 'js/store.js', 'js/banco.js', 'js/charts.js', 'js/app.js',
+  'js/util.js', 'js/srs.js', 'js/planner.js', 'js/store.js', 'js/nuvem.js', 'js/banco.js', 'js/charts.js', 'js/app.js',
   'js/views/painel.js', 'js/views/disciplinas.js', 'js/views/questoes.js', 'js/views/simulado.js',
   'js/views/flashcards.js', 'js/views/revisoes.js', 'js/views/cronograma.js', 'js/views/pomodoro.js',
   'js/views/estatisticas.js', 'js/views/estrategia.js', 'js/views/exame.js', 'js/views/config.js'

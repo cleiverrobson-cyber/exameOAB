@@ -94,7 +94,18 @@
     setTimeout(function () { t.remove(); }, ms || 2600);
   };
 
-  U.confirmar = function (msg) { return global.confirm(msg); };
+  /* Confirmação dentro da própria página (o confirm() nativo é bloqueado em alguns ambientes). */
+  U.confirmar = function (msg, aoConfirmar, op) {
+    op = op || {};
+    U.modal(U.raw('<p style="margin-top:0">' + U.esc(msg) + '</p><div class="linha" style="justify-content:flex-end;margin-top:16px">' +
+      '<button class="botao" data-fechar>Cancelar</button>' +
+      '<button class="botao ' + (op.perigo ? 'perigo' : 'primario') + '" id="confirmar-ok">' + U.esc(op.rotulo || 'Confirmar') + '</button></div>'),
+      function (modal, fechar) {
+        var ok = modal.querySelector('#confirmar-ok');
+        ok.focus();
+        ok.addEventListener('click', function () { fechar(); aoConfirmar(); });
+      });
+  };
 
   U.modal = function (conteudo, aoMontar) {
     var fundo = document.createElement('div');

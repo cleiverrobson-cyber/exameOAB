@@ -74,6 +74,7 @@ const ROTAS = ['painel', 'disciplinas', 'disciplinas/etica', 'disciplinas/civil?
       await page.keyboard.press('c');
       if (SHOTS) await page.screenshot({ path: `${SHOTS}/desktop-simulado-fazendo.png` });
       await page.click('#finalizar');
+      await page.click('#confirmar-ok');
       await page.waitForSelector('.anel');
       const sim = await page.evaluate(() => OAB.store.estado.simulados.length);
       assert.strictEqual(sim, 1, 'simulado salvo');

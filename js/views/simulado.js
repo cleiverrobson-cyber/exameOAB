@@ -58,7 +58,7 @@
     });
     var ds = U.$('#descartar', el);
     if (ds) ds.addEventListener('click', function () {
-      if (U.confirmar('Descartar o simulado em andamento? As respostas serão perdidas.')) { est.simuladoAtivo = null; S.salvar(); OAB.recarregarTela(); }
+      U.confirmar('Descartar o simulado em andamento? As respostas serão perdidas.', function () { est.simuladoAtivo = null; S.salvar(); OAB.recarregarTela(); }, { rotulo: 'Descartar', perigo: true });
     });
   }
 
@@ -148,7 +148,7 @@
       var rt = U.$('#retomar', el); if (rt) rt.addEventListener('click', alternarPausa);
       U.$('#finalizar', el).addEventListener('click', function () {
         var falta = questoes.length - Object.keys(sa.respostas).length;
-        if (U.confirmar(falta ? 'Ainda há ' + falta + ' questão(ões) sem resposta. Na prova, nunca deixe em branco! Finalizar mesmo assim?' : 'Finalizar e ver o resultado?')) finalizar(false);
+        U.confirmar(falta ? 'Ainda há ' + falta + ' questão(ões) sem resposta. Na prova, nunca deixe em branco! Finalizar mesmo assim?' : 'Finalizar e ver o resultado?', function () { finalizar(false); }, { rotulo: 'Finalizar' });
       });
       tique();
     }

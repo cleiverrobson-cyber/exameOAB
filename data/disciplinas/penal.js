@@ -651,7 +651,7 @@ OAB.registrar({
       ],
       correta: 0,
       comentario: 'Correto o estupro de vulnerável: ter conjunção carnal ou praticar ato libidinoso com menor de 14 anos configura o crime do art. 217-A do CP, sendo irrelevantes o consentimento da vítima, sua experiência sexual anterior ou a existência de relacionamento amoroso (Súmula 593 do STJ; art. 217-A, § 5º). A Lei 15.353/2026 reforçou expressamente o caráter absoluto da presunção de vulnerabilidade, vedando sua relativização. Não se exige violência ou grave ameaça para o tipo do art. 217-A.',
-      fundamento: 'Art. 217-A, caput e § 5º, do CP (redação da Lei 15.353/2026); Súmula 593 do STJ'
+      fundamento: 'Art. 217-A, caput e § 5º, do CP (com as alterações da Lei 15.353/2026); Súmula 593 do STJ'
     },
     {
       id: 'penal-032',

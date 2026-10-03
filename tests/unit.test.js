@@ -1,4 +1,4 @@
-/* Testes das funções puras: node --test tests/ */
+/* Testes das funções puras: npm test */
 'use strict';
 const test = require('node:test');
 const assert = require('node:assert');

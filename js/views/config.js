@@ -35,7 +35,7 @@
 
   OAB.views.config = {
     titulo: 'Configurações',
-    render: function (el) {
+    render: function (el, r) {
       var est = S.estado;
       var p = est.perfil;
       U.render(el, html`
@@ -132,6 +132,7 @@
         S.salvar();
         OAB.recarregarTela();
       });
+      if (r && r.params.aba === 'importar') setTimeout(function () { U.$('#importar-questoes', el).scrollIntoView({ block: 'start' }); }, 50);
     }
   };
 })();

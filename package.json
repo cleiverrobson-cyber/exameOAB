@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx http-server -p 8080 -c-1 .",
     "validar": "node tools/validate.js",
-    "test": "node --test tests/",
+    "test": "node --test tests/unit.test.js",
     "e2e": "node tools/e2e.js http://127.0.0.1:8080/"
   },
   "license": "UNLICENSED"

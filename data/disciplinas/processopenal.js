@@ -271,7 +271,7 @@ OAB.registrar({
       id: 'processopenal-007',
       topico: 'Ação penal',
       dificuldade: 2,
-      enunciado: 'Em agosto de 2026, Vera foi vítima de injúria praticada por seu ex-marido, no âmbito de violência doméstica e familiar contra a mulher, e soube imediatamente quem era o autor. Tratando-se de crime de ação penal privada, o prazo para o oferecimento da queixa-crime, segundo a legislação vigente, é de',
+      enunciado: 'Em agosto de 2026, no âmbito de violência doméstica e familiar contra a mulher, o ex-marido de Vera destruiu intencionalmente o telefone celular dela, praticando crime de dano simples (art. 163, caput, do CP), que se processa mediante queixa (art. 167 do CP). Vera soube imediatamente quem era o autor. Segundo a legislação vigente, o prazo para o oferecimento da queixa-crime é de',
       alternativas: [
         '6 meses, contados da data do fato.',
         '12 meses, contados do dia em que a ofendida veio a saber quem é o autor do crime.',
@@ -279,8 +279,8 @@ OAB.registrar({
         '2 anos, contados da data do fato, por se tratar de violência doméstica.'
       ],
       correta: 1,
-      comentario: 'Correto o prazo de 12 meses: a Lei 15.438/2026, em vigor desde 19/06/2026, fixou em 12 meses o prazo decadencial do direito de queixa ou de representação nos crimes praticados no âmbito de violência doméstica e familiar contra a mulher, contado do dia em que a ofendida vier a saber quem é o autor do crime (art. 38, § 2º, do CPP; art. 103, parágrafo único, do CP). O prazo geral de 6 meses (art. 38, caput) não se aplica à hipótese, e o termo inicial nunca é simplesmente a data do fato, mas a ciência da autoria. Não existe prazo de 2 anos.',
-      fundamento: 'Art. 38, caput e § 2º, do CPP; art. 103 do CP; Lei 15.438/2026'
+      comentario: 'Correto o prazo de 12 meses: a Lei 15.438/2026, em vigor desde 19/06/2026, fixou em 12 meses o prazo decadencial do direito de queixa ou de representação nos crimes praticados no âmbito de violência doméstica e familiar contra a mulher, contado do dia em que a ofendida vier a saber quem é o autor do crime (art. 38, § 2º, do CPP; art. 103, parágrafo único, do CP). A destruição de bens da mulher configura violência patrimonial (art. 7º, IV, da Lei 11.340/2006). O prazo geral de 6 meses (art. 38, caput) não se aplica à hipótese, e o termo inicial nunca é simplesmente a data do fato, mas a ciência da autoria. Não existe prazo de 2 anos.',
+      fundamento: 'Art. 38, caput e § 2º, do CPP; arts. 103 e 167 do CP; art. 7º, IV, da Lei 11.340/2006; Lei 15.438/2026'
     },
     {
       id: 'processopenal-008',
@@ -483,12 +483,12 @@ OAB.registrar({
       dificuldade: 1,
       enunciado: 'A polícia recebeu informação de que Caio pretendia furtar um caminhão estacionado em determinado pátio na madrugada seguinte. Os policiais, sem qualquer intervenção para induzir Caio, aguardaram escondidos e o prenderam quando ele já havia ligado o veículo e iniciado a saída do pátio. Sobre a prisão, assinale a afirmativa correta.',
       alternativas: [
-        'Trata-se de flagrante preparado, que torna o crime impossível, nos termos da Súmula 145 do STF.',
-        'Trata-se de flagrante forjado, devendo a prisão ser relaxada.',
         'Trata-se de flagrante esperado, válido, pois a polícia apenas aguardou a prática do crime, sem induzir o agente.',
+        'Trata-se de flagrante forjado, devendo a prisão ser relaxada.',
+        'Trata-se de flagrante preparado, que torna o crime impossível, nos termos da Súmula 145 do STF.',
         'Trata-se de flagrante presumido, pois Caio foi encontrado com o instrumento do crime logo depois de cometê-lo.'
       ],
-      correta: 2,
+      correta: 0,
       comentario: 'Correto o flagrante esperado: a polícia, ciente da futura prática do crime, apenas aguardou o momento da execução, sem induzir ou provocar o agente — hipótese válida de flagrante próprio (art. 302, I, do CPP). O flagrante preparado, que gera crime impossível (Súmula 145 do STF), pressupõe a instigação do agente pela polícia. O flagrante forjado envolve a criação de provas falsas. O flagrante presumido (art. 302, IV) ocorre quando o agente é encontrado logo depois com instrumentos ou objetos, e Caio foi surpreendido durante a execução.',
       fundamento: 'Art. 302 do CPP; Súmula 145 do STF'
     },
@@ -618,12 +618,12 @@ OAB.registrar({
       dificuldade: 2,
       enunciado: 'A denúncia descreveu que Nestor subtraiu a bolsa de Rosa mediante grave ameaça exercida com uma faca, mas capitulou o fato como furto (art. 155 do CP). Ao final da instrução, sem qualquer alteração dos fatos narrados, o juiz condenou Nestor por roubo, sem aditamento da denúncia. Assinale a afirmativa correta.',
       alternativas: [
-        'A sentença é nula, pois o juiz deveria ter aberto vista ao MP para aditamento, nos termos da mutatio libelli.',
+        'A sentença é válida, pois se trata de emendatio libelli: o juiz, sem modificar a descrição do fato, pode atribuir-lhe definição jurídica diversa, ainda que tenha de aplicar pena mais grave.',
         'A sentença é nula, pois o juiz não pode aplicar pena mais grave do que a correspondente à capitulação da denúncia.',
         'A sentença é válida, mas o juiz deveria ter aplicado a pena do furto, mais branda, por ser a capitulada.',
-        'A sentença é válida, pois se trata de emendatio libelli: o juiz, sem modificar a descrição do fato, pode atribuir-lhe definição jurídica diversa, ainda que tenha de aplicar pena mais grave.'
+        'A sentença é nula, pois o juiz deveria ter aberto vista ao MP para aditamento, nos termos da mutatio libelli.'
       ],
-      correta: 3,
+      correta: 0,
       comentario: 'Correta a emendatio libelli: o juiz, sem modificar a descrição do fato contida na denúncia, poderá atribuir-lhe definição jurídica diversa, ainda que, em consequência, tenha de aplicar pena mais grave (art. 383 do CPP), pois o réu se defende dos fatos narrados, e não da capitulação. A mutatio libelli (art. 384) só é exigida quando surge prova de elemento ou circunstância da infração não contida na acusação — o que não ocorreu, pois a grave ameaça já estava descrita.',
       fundamento: 'Arts. 383 e 384 do CPP'
     },

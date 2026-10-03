@@ -31,7 +31,7 @@ OAB.registrar({
       itens: [
         'Inelegibilidades infraconstitucionais exigem lei complementar (art. 14, § 9º, CF). A LC 135/2010 (Ficha Limpa) passou a admitir a inelegibilidade a partir de decisão de órgão colegiado, sem trânsito em julgado, e fixou prazos de 8 anos.',
         'Procedência de representação por abuso de poder (AIJE): cassação do registro ou diploma e inelegibilidade por 8 anos (art. 1º, I, “d”, e art. 22, XIV, LC 64/1990).',
-        'LC 219/2025 (29/09/2025) alterou a LC 64/1990: unificou termos iniciais de contagem (ex.: improbidade dolosa, alínea “l”, da condenação colegiada até 8 anos; perda de mandato parlamentar, alínea “b”, 8 anos da decisão que decretar a perda), reorganizou a alínea “e” (crimes) e criou teto de 12 anos para cumulação de inelegibilidades.',
+        'LC 219/2025 (29/09/2025, sancionada com vetos) alterou a LC 64/1990: modificou termos iniciais e finais de contagem (ex.: improbidade dolosa com lesão ao erário e enriquecimento ilícito, alínea “l”, da condenação colegiada até 8 anos; perda de mandato parlamentar, alínea “b”, 8 anos da decisão que decretar a perda), reorganizou a alínea “e” (crimes) e criou teto de 12 anos para cumulação de inelegibilidades.',
         'Cautela: a LC 219/2025 é questionada no STF (ADI 7.881); o julgamento não estava concluído na data de corte do edital (21/09/2026). Em prova, privilegie o texto legal vigente e evite assertivas que dependam do desfecho dessa ação.',
         'A ação de impugnação de registro de candidatura (AIRC) pode ser proposta por candidato, partido, federação, coligação ou MP em 5 dias da publicação do pedido de registro (art. 3º, LC 64/1990).'
       ]

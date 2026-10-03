@@ -76,8 +76,8 @@ OAB.registrar({
         'Substituição por restritivas de direitos (art. 44): pena até 4 anos e crime sem violência ou grave ameaça (ou crime culposo), réu não reincidente em crime doloso e circunstâncias favoráveis. Súmula 588 STJ: vedada nos crimes ou contravenções com violência ou grave ameaça contra a mulher no ambiente doméstico.',
         'Lei Maria da Penha: vedadas penas de cesta básica, prestação pecuniária e substituição que implique pagamento isolado de multa (art. 17, Lei 11.340/2006).',
         'Sursis (art. 77): pena até 2 anos, réu não reincidente em crime doloso, circunstâncias favoráveis e não cabível a substituição do art. 44; período de prova de 2 a 4 anos (sursis etário/humanitário: pena até 4 anos, período de 4 a 6 anos).',
-        'Livramento condicional (art. 83): pena igual ou superior a 2 anos; cumprimento de mais de 1/3 (não reincidente em crime doloso e bons antecedentes), mais de 1/2 (reincidente em crime doloso) ou mais de 2/3 (hediondos e equiparados, se não reincidente específico); exige não cometimento de falta grave nos últimos 12 meses.',
-        'Atenção (execução penal 2024–2026): a Lei 14.843/2024 tornou obrigatório o exame criminológico para a progressão e restringiu a saída temporária; as frações do art. 112 da LEP foram novamente alteradas pelas Leis 15.358/2026 e 15.402/2026 — consulte a redação compilada antes de decorar percentuais.'
+        'Livramento condicional (art. 83): pena igual ou superior a 2 anos; cumprimento de mais de 1/3 (não reincidente em crime doloso e bons antecedentes), mais de 1/2 (reincidente em crime doloso) ou mais de 2/3 (hediondos e equiparados, se não reincidente específico); exige não cometimento de falta grave nos últimos 12 meses. Atenção às vedações ao livramento previstas no art. 112 da LEP (p.ex., hediondo com resultado morte e feminicídio), ampliadas pelas Leis 13.964/2019, 14.994/2024 e 15.358/2026.',
+        'Atenção (execução penal 2024–2026): a Lei 14.843/2024 tornou obrigatório o exame criminológico para a progressão e restringiu a saída temporária; a Lei 15.358/2026 (Lei Antifacção) endureceu as frações do art. 112 da LEP para hediondos e equiparados (só para fatos posteriores à sua vigência); a Lei 15.402/2026 (“Lei da Dosimetria”) trouxe regras mais brandas restritas aos crimes contra o Estado Democrático de Direito, mas é objeto de ADIs no STF (7.966 e 7.967) e teve a aplicação suspensa pelo relator até o julgamento — consulte a redação compilada antes de decorar percentuais.'
       ]
     },
     {
@@ -120,7 +120,7 @@ OAB.registrar({
       titulo: 'Crimes contra o patrimônio (atualizado pela Lei 15.397/2026)',
       itens: [
         'Lei 15.397/2026 (em vigor desde 04/05/2026): furto simples passou a reclusão de 1 a 6 anos e o aumento do repouso noturno passou a ser de metade; roubo simples, 6 a 10 anos; latrocínio, 24 a 30 anos; receptação simples, 2 a 6 anos. Foi vetada a nova pena do roubo com lesão grave.',
-        'A mesma lei revogou o § 5º do art. 171 do CP: o estelionato voltou a ser, em regra, crime de ação penal pública incondicionada. Também criou o crime de cessão de “conta laranja”.',
+        'A mesma lei revogou o § 5º do art. 171 do CP: o estelionato voltou a ser, em regra, crime de ação penal pública incondicionada (por ser mais gravosa, a mudança alcança apenas fatos praticados a partir de 04/05/2026). Também criou o crime de cessão de “conta laranja”.',
         'Súmula 582 STJ: o roubo se consuma com a inversão da posse do bem mediante violência ou grave ameaça, ainda que por breve tempo e seguida de perseguição imediata, sendo prescindível a posse mansa e pacífica.',
         'Súmula 610 STF: há latrocínio consumado quando o homicídio se consuma, ainda que não realize o agente a subtração. Súmula 603 STF: latrocínio é julgado pelo juiz singular, não pelo Júri.',
         'Súmula 96 STJ: a extorsão consuma-se independentemente da obtenção da vantagem indevida. Súmula 511 STJ: é possível o furto privilegiado-qualificado se a qualificadora for de ordem objetiva.',
@@ -131,7 +131,7 @@ OAB.registrar({
     {
       titulo: 'Dignidade sexual e Administração Pública',
       itens: [
-        'Estupro de vulnerável (art. 217-A): conjunção carnal ou ato libidinoso com menor de 14 anos; a Lei 15.353/2026 reforçou no § 5º a presunção absoluta de vulnerabilidade, irrelevantes consentimento, experiência sexual anterior, relacionamento ou gravidez (Súmula 593 STJ).',
+        'Estupro de vulnerável (art. 217-A): conjunção carnal ou ato libidinoso com menor de 14 anos; a Lei 15.353/2026 incluiu o § 4º-A (presunção absoluta de vulnerabilidade, vedada a relativização) e ampliou o § 5º (penas aplicáveis independentemente de consentimento, experiência sexual, relações anteriores ou gravidez resultante do crime); ver também a Súmula 593 STJ.',
         'Os crimes contra a dignidade sexual são de ação penal pública incondicionada (art. 225, CP, Lei 13.718/2018).',
         'Peculato (art. 312): apropriação ou desvio (caput) e peculato-furto (§ 1º). No peculato culposo, a reparação do dano antes da sentença irrecorrível extingue a punibilidade; se posterior, reduz de metade a pena (§ 3º).',
         'Concussão (art. 316) é “exigir” vantagem indevida e é crime formal: consuma-se com a exigência. Corrupção passiva (art. 317) é “solicitar, receber ou aceitar promessa”.',
@@ -650,8 +650,8 @@ OAB.registrar({
         'Rafael responde por corrupção de menores, já que não houve violência ou grave ameaça.'
       ],
       correta: 0,
-      comentario: 'Correto o estupro de vulnerável: ter conjunção carnal ou praticar ato libidinoso com menor de 14 anos configura o crime do art. 217-A do CP, sendo irrelevantes o consentimento da vítima, sua experiência sexual anterior ou a existência de relacionamento amoroso (Súmula 593 do STJ; art. 217-A, § 5º). A Lei 15.353/2026 reforçou expressamente o caráter absoluto da presunção de vulnerabilidade, vedando sua relativização. Não se exige violência ou grave ameaça para o tipo do art. 217-A.',
-      fundamento: 'Art. 217-A, caput e § 5º, do CP (com as alterações da Lei 15.353/2026); Súmula 593 do STJ'
+      comentario: 'Correto o estupro de vulnerável: ter conjunção carnal ou praticar ato libidinoso com menor de 14 anos configura o crime do art. 217-A do CP, sendo irrelevantes o consentimento da vítima, sua experiência sexual anterior ou a existência de relacionamento amoroso (Súmula 593 do STJ; art. 217-A, § 5º). A Lei 15.353/2026 incluiu o § 4º-A no art. 217-A, declarando absoluta a presunção de vulnerabilidade e inadmissível sua relativização. Não se exige violência ou grave ameaça para o tipo do art. 217-A.',
+      fundamento: 'Art. 217-A, caput, §§ 4º-A e 5º, do CP (redação da Lei 15.353/2026); Súmula 593 do STJ'
     },
     {
       id: 'penal-032',
@@ -751,7 +751,7 @@ OAB.registrar({
     { id: 'penal-f019', frente: 'Tema 506 do STF: parâmetro de usuário de maconha', verso: 'Presunção relativa de usuário: até 40 g de cannabis ou 6 plantas-fêmeas. Conduta sem natureza penal; advertência e medida educativa em procedimento não penal.', fundamento: 'STF, RE 635.659 (Tema 506)' },
     { id: 'penal-f020', frente: 'Tráfico privilegiado: fração e natureza', verso: 'Redução de 1/6 a 2/3 (primário, bons antecedentes, sem dedicação a atividades criminosas nem organização). Não é hediondo (SV 63).', fundamento: 'Art. 33, § 4º, da Lei 11.343/2006; SV 63' },
     { id: 'penal-f021', frente: 'Lei Maria da Penha: Súmulas 536, 542, 588, 589 e 600 do STJ', verso: '536: sem transação nem sursis processual. 542: lesão é ação incondicionada. 588: sem substituição por restritiva. 589: sem insignificância. 600: dispensa coabitação.', fundamento: 'Súmulas 536, 542, 588, 589 e 600 do STJ' },
-    { id: 'penal-f022', frente: 'Súmula 593 do STJ e Lei 15.353/2026', verso: 'No estupro de vulnerável (menor de 14), são irrelevantes consentimento, experiência sexual anterior e relacionamento; a presunção de vulnerabilidade é absoluta.', fundamento: 'Art. 217-A, § 5º, do CP; Súmula 593 do STJ' },
+    { id: 'penal-f022', frente: 'Súmula 593 do STJ e Lei 15.353/2026', verso: 'No estupro de vulnerável (menor de 14), são irrelevantes consentimento, experiência sexual anterior e relacionamento; a presunção de vulnerabilidade é absoluta.', fundamento: 'Art. 217-A, §§ 4º-A e 5º, do CP (Lei 15.353/2026); Súmula 593 do STJ' },
     { id: 'penal-f023', frente: 'Súmula 711 do STF', verso: 'A lei penal mais grave aplica-se ao crime continuado ou permanente se sua vigência é anterior à cessação da continuidade ou da permanência.', fundamento: 'Súmula 711 do STF' },
     { id: 'penal-f024', frente: 'Regime inicial pela quantidade de pena (não reincidente)', verso: '> 8 anos: fechado | > 4 até 8: semiaberto | até 4: aberto. Detenção: só semiaberto ou aberto (salvo regressão).', fundamento: 'Art. 33, caput e § 2º, do CP' },
     { id: 'penal-f025', frente: 'Retratação nos crimes contra a honra', verso: 'Cabe na calúnia e na difamação, antes da sentença, e isenta de pena; não cabe na injúria; independe de aceitação do ofendido.', fundamento: 'Art. 143 do CP' }

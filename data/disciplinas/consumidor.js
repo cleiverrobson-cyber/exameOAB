@@ -119,7 +119,7 @@ OAB.registrar({
     'Comerciante: responde solidariamente no vício, mas só subsidiariamente no fato do produto (art. 13).',
     'Decore os números do CDC: 7 dias (arrependimento), 10 dias (orçamento), 30 dias (sanar vício), 30/90 dias (decadência), 2% (multa), 5 anos (prescrição, cadastro e plano de superendividamento), 1 ano (pré-constituição de associação).',
     'As súmulas do STJ são muito cobradas: 297, 302, 359, 385, 479, 532, 595, 602 e 608.',
-    'Não havia, em 21/09/2026, alteração recente relevante no texto do CDC além da Lei 14.181/2021; projetos sobre obsolescência programada e cancelamento digital ainda tramitavam.'
+    'A alteração mais relevante e mais cobrada do CDC nos últimos anos é a da Lei 14.181/2021 (superendividamento); projetos de lei em tramitação não são cobrados — responda sempre pelo texto compilado vigente em 21/09/2026.'
   ],
   questoes: [
     {

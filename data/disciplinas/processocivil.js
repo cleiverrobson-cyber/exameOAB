@@ -28,7 +28,7 @@ OAB.registrar({
         'Cooperação entre os sujeitos do processo (art. 6º) e boa-fé processual (art. 5º).',
         'Os juízes e tribunais atenderão, preferencialmente, à ordem cronológica de conclusão para proferir sentença ou acórdão (art. 12, redação da Lei 13.256/2016).',
         'Negócio jurídico processual atípico é admitido em processos que admitam autocomposição, entre partes plenamente capazes (art. 190); o juiz controla a validade e recusa cláusulas abusivas em contrato de adesão.',
-        'Tutela provisória de urgência e de evidência são exceções à vedação de decisão sem oitiva prévia do réu (art. 9º, parágrafo único).'
+        'Exceções à vedação de decisão sem oitiva prévia da parte: tutela provisória de urgência, tutela da evidência nas hipóteses do art. 311, II e III, e mandado monitório (art. 9º, parágrafo único).'
       ]
     },
     {

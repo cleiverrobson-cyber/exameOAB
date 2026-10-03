@@ -83,7 +83,7 @@ OAB.registrar({
         'Doação: revogação por ingratidão em 1 ano do conhecimento do fato (art. 559); não se pode renunciar antecipadamente a esse direito (art. 556); doação universal sem reserva é nula (art. 548).',
         'Fiança: benefício de ordem afastado se o fiador renunciou, se obrigou como principal pagador ou devedor solidário (art. 828); sem outorga conjugal, ineficácia total (Súmula 332 STJ).',
         'Transporte: culpa de terceiro não elide a responsabilidade do transportador perante o passageiro (art. 735; Súmula 187 STF); transporte de cortesia: só dolo ou culpa grave (Súmula 145 STJ).',
-        'Seguro: os arts. 757 a 802 do CC foram revogados pela Lei 15.040/2024 (Marco Legal dos Seguros), em vigor desde dezembro de 2025.'
+        'Seguro: os arts. 757 a 802 do CC (e a prescrição ânua do art. 206, § 1º, II) foram revogados pela Lei 15.040/2024 (Marco Legal dos Seguros), em vigor desde 11/12/2025.'
       ]
     },
     {

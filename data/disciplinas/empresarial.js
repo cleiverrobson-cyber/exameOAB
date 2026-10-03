@@ -89,7 +89,7 @@ OAB.registrar({
         'Cheque: apresentação em 30 dias (mesma praça) ou 60 dias (praça diversa) (art. 33, Lei 7.357/1985); execução prescreve em 6 meses após o prazo de apresentação (art. 59); ação de enriquecimento em 2 anos (art. 61); monitória em 5 anos (Súmula 503 STJ), sem necessidade de mencionar a origem (Súmula 531 STJ).',
         'Cheque pós-datado: a apresentação antecipada caracteriza dano moral (Súmula 370 STJ), embora o cheque seja pagável à vista (art. 32, Lei 7.357/1985).',
         'Duplicata: aceite obrigatório, recusável só nas hipóteses do art. 8º (avaria, vícios, divergências); protesto em 30 dias do vencimento para preservar o regresso (art. 13, § 4º); prescrição de 3 anos contra o sacado (art. 18).',
-        'Duplicata sem aceite é título executivo se protestada, acompanhada do comprovante de entrega da mercadoria e sem recusa legítima (art. 15, II, Lei 5.474/1968; Súmula 248 STJ). A duplicata escritural é emitida por lançamento em sistema eletrônico (Lei 13.775/2018).',
+        'Duplicata sem aceite é título executivo se protestada, acompanhada do comprovante de entrega da mercadoria e sem recusa legítima (art. 15, II, Lei 5.474/1968); a duplicata de serviços não aceita, mas protestada, com prova da prestação, instrui pedido de falência (Súmula 248 STJ). A duplicata escritural é emitida por lançamento em sistema eletrônico (Lei 13.775/2018).',
         'Endossatário por endosso-mandato só responde por protesto indevido se extrapolar os poderes (Súmula 476 STJ); o endossatário translativo responde por protesto indevido de duplicata sem causa (Súmula 475 STJ).'
       ]
     },
@@ -128,7 +128,7 @@ OAB.registrar({
         'Plano apresentado em 60 dias da publicação da decisão que deferir o processamento, sob pena de convolação em falência (art. 53); objeções em 30 dias (art. 55); assembleia em até 150 dias do deferimento (art. 56, § 1º).',
         'Classes (art. 41): I trabalhistas; II garantia real; III quirografários, privilégio especial/geral e subordinados; IV ME e EPP. Nas classes I e IV vota-se por cabeça (maioria simples dos presentes); nas II e III, por valor e por cabeça (art. 45).',
         'Créditos trabalhistas: pagamento em até 1 ano (art. 54), com possibilidade de extensão até 2 anos nas condições do § 2º; salariais dos 3 meses anteriores, até 5 salários mínimos, em até 30 dias (art. 54, § 1º).',
-        'Cram down (art. 58, § 1º): mais da metade do valor de todos os créditos presentes; aprovação pelas classes exigidas em lei; mais de 1/3 de votos favoráveis na classe que rejeitou; sem tratamento diferenciado aos credores dessa classe (art. 58, § 2º).',
+        'Cram down (art. 58, § 1º, redação da Lei 14.112/2020): mais da metade do valor de todos os créditos presentes, independentemente de classes; aprovação de 3 classes (ou de 2, se houver só 3 classes votantes; ou de 1, se houver só 2); mais de 1/3 de votos favoráveis na classe que rejeitou, computados na forma do art. 45; sem tratamento diferenciado aos credores dessa classe (art. 58, § 2º).',
         'Não se sujeitam à recuperação: créditos fiscais, do proprietário fiduciário, do arrendador mercantil, do vendedor com reserva de domínio e de ACC (art. 49, §§ 3º e 4º).',
         'Plano especial ME/EPP: até 36 parcelas mensais com juros pela Selic, 1ª parcela em até 180 dias (art. 71).',
         'Recuperação extrajudicial: homologação com adesão de mais da metade dos créditos de cada espécie abrangida; o pedido pode ser feito com 1/3, para atingir o quórum em 90 dias (art. 163, caput e § 7º). Não abrange créditos trabalhistas sem negociação coletiva nem tributários (art. 161, § 1º).'
@@ -243,8 +243,8 @@ OAB.registrar({
         'A duplicata não aceita é título executivo se protestada, ainda que o sacado tenha comprovadamente recusado o aceite por avaria das mercadorias.'
       ],
       correta: 1,
-      comentario: 'Correta a B: o art. 15, II, da Lei 5.474/1968 admite a execução da duplicata não aceita que, cumulativamente, tenha sido protestada, esteja acompanhada de documento hábil comprobatório da entrega e recebimento da mercadoria e cujo sacado não tenha recusado o aceite nas condições dos arts. 7º e 8º; no mesmo sentido, a Súmula 248 do STJ. A A ignora essa hipótese legal. A C dispensa indevidamente o protesto, requisito expresso. A D erra porque a recusa motivada por avaria (art. 8º, I) afasta a executividade.',
-      fundamento: 'Arts. 8º e 15, II, da Lei 5.474/1968; Súmula 248 do STJ'
+      comentario: 'Correta a B: o art. 15, II, da Lei 5.474/1968 admite a execução da duplicata não aceita que, cumulativamente, tenha sido protestada, esteja acompanhada de documento hábil comprobatório da entrega e recebimento da mercadoria e cujo sacado não tenha recusado o aceite nas condições dos arts. 7º e 8º. A A ignora essa hipótese legal. A C dispensa indevidamente o protesto, requisito expresso. A D erra porque a recusa motivada por avaria (art. 8º, I) afasta a executividade.',
+      fundamento: 'Arts. 8º e 15, II, da Lei 5.474/1968'
     },
     {
       id: 'empresarial-006',
@@ -333,7 +333,7 @@ OAB.registrar({
         'O juiz poderá conceder a recuperação, mas os quirografários ficarão excluídos dos efeitos do plano, mantendo seus créditos nas condições originais.'
       ],
       correta: 2,
-      comentario: 'Correta a C: trata-se do cram down do art. 58, § 1º, da Lei 11.101/2005. Estão presentes os requisitos cumulativos: voto favorável de credores que representam mais da metade do valor de todos os créditos presentes (70%); aprovação pela maioria das classes (3 das 4 classes votantes); e, na classe que rejeitou, voto favorável de mais de 1/3 dos credores, computados por valor e por cabeça (art. 45, §§ 1º e 2º). O § 2º do art. 58 exige ainda que o plano não implique tratamento diferenciado entre os credores da classe que o rejeitou. A A e a B ignoram o cram down. A D erra porque a concessão vincula todos os credores sujeitos (art. 59).',
+      comentario: 'Correta a C: trata-se do cram down do art. 58, § 1º, da Lei 11.101/2005. Estão presentes os requisitos cumulativos: voto favorável de credores que representam mais da metade do valor de todos os créditos presentes (70%); aprovação de 3 das classes de credores (art. 58, § 1º, II, com a redação da Lei 14.112/2020), o que ocorreu; e, na classe que rejeitou, voto favorável de mais de 1/3 dos credores, computados por valor e por cabeça (art. 45, §§ 1º e 2º). O § 2º do art. 58 exige ainda que o plano não implique tratamento diferenciado entre os credores da classe que o rejeitou. A A e a B ignoram o cram down. A D erra porque a concessão vincula todos os credores sujeitos (art. 59).',
       fundamento: 'Art. 45, art. 58, §§ 1º e 2º, e art. 59 da Lei 11.101/2005'
     },
     {
@@ -393,7 +393,7 @@ OAB.registrar({
         'A patente vigorará até 2032, pois a patente de invenção vigora por 20 anos contados da data do depósito, não subsistindo a garantia de prazo mínimo contado da concessão.'
       ],
       correta: 3,
-      comentario: 'Correta a D: o art. 40, caput, da Lei 9.279/1996 fixa a vigência da patente de invenção em 20 anos contados do depósito (2012 + 20 = 2032). O parágrafo único, que garantia prazo mínimo de 10 anos após a concessão, foi declarado inconstitucional pelo STF na ADI 5529 (2021), com efeitos que não alcançam patentes concedidas após o julgamento, e foi revogado pela Lei 14.195/2021. Por isso a B está errada. A A conta o prazo da concessão, contrariando o art. 40. A C aplica o prazo de 15 anos, que é o do modelo de utilidade.',
+      comentario: 'Correta a D: o art. 40, caput, da Lei 9.279/1996 fixa a vigência da patente de invenção em 20 anos contados do depósito (2012 + 20 = 2032). O parágrafo único, que garantia prazo mínimo de 10 anos após a concessão, foi declarado inconstitucional pelo STF na ADI 5529 (2021) — a modulação de efeitos apenas preservou, com ressalvas (como as patentes da área da saúde), extensões de prazo já concedidas antes do julgamento, o que não beneficia a patente de Lúcia, concedida em 2024 — e foi revogado pela Lei 14.195/2021. Por isso a B está errada. A A conta o prazo da concessão, contrariando o art. 40. A C aplica o prazo de 15 anos, que é o do modelo de utilidade.',
       fundamento: 'Art. 40 da Lei 9.279/1996; ADI 5529 (STF); Lei 14.195/2021'
     },
     {

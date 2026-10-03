@@ -76,7 +76,7 @@ OAB.registrar({
         'Súmula 342 STJ: é nula a desistência de outras provas em face da confissão do adolescente.',
         'Súmula 265 STJ: é necessária a oitiva do menor infrator antes de decretar a regressão da medida.',
         'Prazos do ECA: dias corridos, sem prazo em dobro para a Fazenda Pública e o MP (art. 152, § 2º).',
-        'Recursos: sistema do CPC, sem preparo, prazo de 10 dias para MP e defesa (salvo agravo de instrumento e embargos de declaração), juízo de retratação em 5 dias (art. 198).',
+        'Recursos: sistema do CPC, sem preparo, prazo de 10 dias para MP e defesa em todos os recursos, inclusive o agravo de instrumento, salvo nos embargos de declaração (art. 198, II, redação da Lei 12.594/2012); juízo de retratação em 5 dias (art. 198, VII).',
         'Sentença de adoção: apelação só no efeito devolutivo, salvo adoção internacional ou risco de dano irreparável (art. 199-A); destituição do poder familiar: apelação só no efeito devolutivo (art. 199-B).'
       ]
     },
@@ -254,7 +254,7 @@ OAB.registrar({
         'A apelação deve ser recebida, obrigatoriamente, nos efeitos devolutivo e suspensivo.'
       ],
       correta: 2,
-      comentario: 'Correta a C: nos procedimentos do ECA adota-se o sistema recursal do CPC, com adaptações: os recursos independem de preparo e, salvo agravo de instrumento e embargos de declaração, o prazo para MP e defesa é de 10 dias (art. 198, I e II); os prazos são contados em dias corridos (art. 152, § 2º). A está errada por desconsiderar as adaptações do art. 198. B está errada: é vedado o prazo em dobro para a Fazenda Pública e o MP (art. 152, § 2º). D está errada: a sentença que destitui o poder familiar é apelável apenas no efeito devolutivo (art. 199-B).',
+      comentario: 'Correta a C: nos procedimentos do ECA adota-se o sistema recursal do CPC, com adaptações: os recursos independem de preparo e, em todos os recursos, salvo nos embargos de declaração, o prazo para MP e defesa é de 10 dias (art. 198, I e II, redação da Lei 12.594/2012); os prazos são contados em dias corridos (art. 152, § 2º). A está errada por desconsiderar as adaptações do art. 198. B está errada: é vedado o prazo em dobro para a Fazenda Pública e o MP (art. 152, § 2º). D está errada: a sentença que destitui o poder familiar é apelável apenas no efeito devolutivo (art. 199-B).',
       fundamento: 'Arts. 152, § 2º, 198 e 199-B do ECA'
     },
     {
@@ -374,7 +374,7 @@ OAB.registrar({
     { id: 'eca-f008', frente: 'Quem não pode adotar e diferença mínima de idade', verso: 'Não podem adotar ascendentes e irmãos do adotando; o adotante deve ser 16 anos mais velho.', fundamento: 'Art. 42, §§ 1º e 3º, do ECA' },
     { id: 'eca-f009', frente: 'Acolhimento: reavaliação e duração máxima', verso: 'Reavaliação no máximo a cada 3 meses; permanência em acolhimento institucional por até 18 meses, salvo necessidade fundamentada.', fundamento: 'Art. 19, §§ 1º e 2º, do ECA' },
     { id: 'eca-f010', frente: 'Conselho Tutelar: composição, mandato e requisitos', verso: '5 membros, escolhidos pela população, mandato de 4 anos, recondução permitida por novos processos de escolha; candidato com mais de 21 anos, idoneidade moral e residência no Município.', fundamento: 'Arts. 132 e 133 do ECA' },
-    { id: 'eca-f011', frente: 'Recursos no ECA', verso: 'Sistema do CPC; sem preparo; 10 dias para MP e defesa (salvo agravo de instrumento e embargos de declaração); retratação em 5 dias; prazos em dias corridos, sem dobra para MP e Fazenda.', fundamento: 'Arts. 152, § 2º, e 198 do ECA' },
+    { id: 'eca-f011', frente: 'Recursos no ECA', verso: 'Sistema do CPC; sem preparo; 10 dias para MP e defesa em todos os recursos, inclusive agravo de instrumento (salvo embargos de declaração); retratação em 5 dias; prazos em dias corridos, sem dobra para MP e Fazenda.', fundamento: 'Arts. 152, § 2º, e 198 do ECA' },
     { id: 'eca-f012', frente: 'Súmulas STJ sobre ato infracional', verso: '108: só o juiz aplica medida socioeducativa; 265: oitiva antes da regressão; 338: prescrição penal se aplica; 342: nula desistência de provas ante confissão; 492: tráfico não leva necessariamente à internação; 605: maioridade não impede medida até 21 anos.', fundamento: 'Súmulas 108, 265, 338, 342, 492 e 605 do STJ' },
     { id: 'eca-f013', frente: 'Quando o depoimento especial segue o rito de antecipação de prova?', verso: 'Quando a vítima ou testemunha tiver menos de 7 anos e em caso de violência sexual.', fundamento: 'Art. 11, § 1º, da Lei 13.431/2017' },
     { id: 'eca-f014', frente: 'Consentimento dos pais para adoção: retratação e arrependimento', verso: 'Retratável até a audiência; arrependimento em 10 dias da sentença de extinção do poder familiar; só vale se dado após o nascimento.', fundamento: 'Art. 166, §§ 5º e 6º, do ECA' },

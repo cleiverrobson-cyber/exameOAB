@@ -94,7 +94,7 @@ OAB.registrar({
       titulo: 'Decadência e prescrição',
       itens: [
         'Decadência (prazo para lançar), regra geral: 5 anos contados do primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido efetuado (art. 173, I); ou da decisão que anular, por vício formal, o lançamento anterior (art. 173, II).',
-        'Lançamento por homologação com pagamento (ainda que parcial): 5 anos a contar do fato gerador (art. 150, § 4º), salvo dolo, fraude ou simulação, quando se aplica o art. 173, I (regra expressa após a LC 236/2026).',
+        'Lançamento por homologação com pagamento (ainda que parcial): 5 anos a contar do fato gerador (art. 150, § 4º), salvo comprovação de dolo, fraude ou simulação (parte final do § 4º), caso em que o STJ aplica o art. 173, I.',
         'Sem declaração e sem pagamento: aplica-se exclusivamente o art. 173, I (Súmula 555 do STJ).',
         'A declaração do contribuinte reconhecendo o débito constitui o crédito, dispensada outra providência (Súmula 436 do STJ); a prescrição corre do vencimento ou da entrega da declaração, o que for posterior.',
         'Prescrição: 5 anos contados da constituição definitiva do crédito (art. 174, caput). A LC 236/2026 renumerou o parágrafo único para § 1º e ampliou as causas de interrupção: despacho do juiz que ordenar a citação em execução fiscal (I), protesto judicial ou protesto extrajudicial da CDA (II), ato judicial que constitua em mora o devedor (III), ato inequívoco de reconhecimento do débito (IV) e novas hipóteses (V a IX).',

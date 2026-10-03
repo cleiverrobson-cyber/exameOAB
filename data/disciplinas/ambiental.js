@@ -43,7 +43,7 @@ OAB.registrar({
       itens: [
         'SISNAMA (art. 6º da Lei 6.938/1981): órgão superior — Conselho de Governo; consultivo e deliberativo — CONAMA; central — Ministério do Meio Ambiente; executores — IBAMA e ICMBio; seccionais — órgãos estaduais; locais — órgãos municipais.',
         'Instrumentos da PNMA (art. 9º): padrões de qualidade, zoneamento ambiental, avaliação de impactos, licenciamento, incentivos, espaços protegidos, sistema de informações, cadastros técnicos, penalidades, instrumentos econômicos (concessão florestal, servidão ambiental, seguro ambiental) etc.',
-        'Res. CONAMA 237/1997: licença prévia (LP — localização e concepção), licença de instalação (LI) e licença de operação (LO) (art. 8º); validade máxima: LP até 5 anos, LI até 6 anos, LO de 4 a 10 anos (art. 18).',
+        'Licenças trifásicas: licença prévia (LP — localização e concepção), licença de instalação (LI) e licença de operação (LO) (art. 8º da Res. CONAMA 237/1997). Prazos de validade: desde a vigência da Lei 15.190/2025, valem os da lei geral — LP e LI de 3 a 6 anos; LO de 5 a 10 anos —, e não mais os do art. 18 da Res. CONAMA 237/1997 (LP até 5, LI até 6, LO de 4 a 10 anos).',
         'Res. CONAMA 01/1986: EIA/RIMA para atividades modificadoras do meio ambiente (rol do art. 2º); o RIMA, em linguagem acessível, fica à disposição do público; audiência pública conforme Res. CONAMA 09/1987.',
         'Lei Geral do Licenciamento Ambiental (Lei 15.190/2025): em vigor desde 04/02/2026; o Congresso derrubou a maior parte dos vetos em 27/11/2025. Prevê, além de LP, LI e LO, modalidades como licença ambiental única (LAU), licença por adesão e compromisso (LAC) e licença de operação corretiva (LOC). Há ADIs pendentes no STF (ex.: ADI 7913), sem liminar até a data do edital — conheça a existência da lei, mas evite apostar em detalhes controvertidos.',
         'O EIA continua sendo exigência constitucional para atividade potencialmente causadora de significativa degradação (art. 225, § 1º, IV, CF), não podendo ser dispensado por norma infraconstitucional.'
@@ -266,7 +266,7 @@ OAB.registrar({
         '100 metros.'
       ],
       correta: 2,
-      comentario: 'Correta a C: para cursos d’água de 10 a 50 metros de largura, a APP é de 50 metros, desde a borda da calha do leito regular (art. 4º, I, b, da Lei 12.651/2012). A está errada: 15 metros corresponde à faixa não edificável prevista na Lei 6.766/1979 (parcelamento do solo urbano), inaplicável a imóvel rural. B está errada: 30 metros é a faixa dos cursos d’água de menos de 10 metros (art. 4º, I, a). D está errada: 100 metros é a faixa para cursos d’água de 50 a 200 metros (art. 4º, I, c).',
+      comentario: 'Correta a C: para cursos d’água de 10 a 50 metros de largura, a APP é de 50 metros, desde a borda da calha do leito regular (art. 4º, I, b, da Lei 12.651/2012). A está errada: 15 metros corresponde à faixa não edificável prevista na Lei 6.766/1979 (parcelamento do solo urbano), que não se confunde com a APP do Código Florestal (STJ, Tema 1010) e é inaplicável a imóvel rural. B está errada: 30 metros é a faixa dos cursos d’água de menos de 10 metros (art. 4º, I, a). D está errada: 100 metros é a faixa para cursos d’água de 50 a 200 metros (art. 4º, I, c).',
       fundamento: 'Art. 4º, I, da Lei 12.651/2012'
     },
     {
